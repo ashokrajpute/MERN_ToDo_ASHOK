@@ -1,0 +1,14 @@
+<%- include('partials/header.ejs')%>
+<main class="mflex">
+     
+      <form action="/" method="post">
+      <%if(locals.data){%> 
+       <%for(var i=0;i<data.length;i++){%>
+        <label class="lflex"><input type="radio" name="task<%=i%>" value="<%=data[i]._id%>" class="rbt" ><h4><%=data[i].task%></h4></label>
+        <%}%>
+      <%}%>
+        <label class="lflex"><input type="text" placeholder="New task" name="task" class="taskinp" value=""><input type="submit" value="+" class="tasksub"></label>
+    </form>
+   
+</main>
+<%- include('partials/footer.ejs')%>

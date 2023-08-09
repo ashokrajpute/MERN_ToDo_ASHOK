@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+    min-height: 100vh;
+ display: flex;
+flex-direction: column;
+    
+    background: rgb(166,242,226);
+background: linear-gradient(90deg, rgba(166,242,226,1) 0%, rgba(17,255,216,1) 30%, rgba(156,230,244,1) 100%);
+}
+.hflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fflex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lflex{
+    display: flex;
+    align-items: center;
+}
+.hcont{
+ background-color: #05f9e2;
+ width:20rem;
+ height:5rem;
+ font-family: sans-serif;
+ font-size: xx-large;
+ font-weight: bold;
+ color: white;
+ border-radius: 3%;
+ margin: 1rem 0rem 1rem 0rem;
+ border: 2px solid white;
+ }
+ footer {
+    margin-top: auto;
+  }
+
+.fcss{
+    color:white;
+    font-family: sans-serif;
+ font-size: large;
+ font-weight: bold;
+ color: white;
+  border:  2px solid white;
+  padding:2px;
+}
+.mflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+  width:20rem;
+  height:3rem;
+  background-color: white;
+  margin: 10px;
+}
+input{
+  width:10%;
+  height:12px;
+}
+h4{
+  align-content: flex-end;
+  width: 100%;
+  color: lightgray;
+}
+.rbt{
+ border:none;
+ border-color:white;
+}
+.taskinp{
+  height:90%;
+  width:80%;
+  border-color:white;
+  border: none;
+  color: black;
+}
+::placeholder {
+  color: lightgrey;
+  opacity: 0.3; /* Firefox */
+  font-size: large;
+  font-weight: bold;
+}
+
+.tasksub{
+height:100%;
+width:20%;
+border-color:white;
+}
