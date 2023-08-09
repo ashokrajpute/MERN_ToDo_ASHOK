@@ -2,11 +2,11 @@
   "name": "jira_ticket",
   "version": "1.0.0",
   "description": "",
-  "main": "bk.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start":"node bk.js",
-    "dev":"nodemon bk.js",
+    "start":"node index.js",
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
