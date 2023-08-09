@@ -10,7 +10,7 @@ task: String
 
 
 
-var port=3000;
+//var port=3000;
 var List=[];
 var app=express();
 app.use(bodyparser.urlencoded({ extended: true }));
@@ -78,7 +78,10 @@ app.post('/',async function(req,res){
 
 })
 
-
+let port =process.env.PORT;
+if(port==null||port==""){
+  port=3000;
+}
 
 app.listen(port,()=>{
    console.log(`server setup at ${port}`);
